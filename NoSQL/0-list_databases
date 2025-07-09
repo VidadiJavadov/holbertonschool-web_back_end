@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 //comment
 
-show dbs
+
+db.adminCommand('listDatabases')
