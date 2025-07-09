@@ -2,5 +2,5 @@
 """ 8-main """
 
 def list_all(mongo_collection):
-    """list"""
+    """list all in mongo_collection"""
     return list(db.mongo_collection.find())
